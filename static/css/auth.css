@@ -1,0 +1,188 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+.qq{
+    margin-right: 832px;
+    color:white;
+    font-family: 'Russo One';
+    font-size: smaller;
+}
+
+li{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.n2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.n3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n1{
+    background-image: url('https://mettl.com/prelogin/resources/images/pages/home-v2/cover.jpg');
+    background-size: cover;
+    height: 60vh;
+}
+
+.de{
+    text-align: right;
+    margin-right: 132px;
+    margin-top: 20px;
+}
+
+.vv{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.b1{
+    border-style: none;
+}
+
+.b2{
+    border-style: none;
+}
+
+.b3{
+    border-style: none;
+}
+
+.b1:hover{
+   background-color: transparent;
+}
+
+.b2:hover{
+    background-color: transparent;
+}
+
+.b3:hover{
+    background-color: transparent;
+}
+
+.bs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bs>h2{
+    margin-top: 60px;
+    color: white;
+}
+
+.par{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+.qwq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pro{
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.knw{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.edu{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 150px; */
+}
+
+.edu1{
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    transition: box-shadow 1s;
+    border: 1px solid white;
+}
+
+.edu2{
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    margin-right: 80px;
+    transition: box-shadow 1s;
+    border: 1px solid white;
+}
+
+.edu3{
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    transition: box-shadow 1s;
+    border: 1px solid white;
+}
+
+.edu2:hover{
+    box-shadow: 0 0 40px gray;
+    cursor: pointer;
+}
+
+.edu1:hover{
+    box-shadow: 0 0 40px gray;
+    cursor: pointer;
+}
+
+.edu3:hover{
+    box-shadow: 0 0 40px gray;
+    cursor: pointer;
+}
+
+.bbb{
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.erer{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #5bd389;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cp{
+    background-color: #cdd4c1;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+
+.cp>p{
+    font-weight: bold;
+}

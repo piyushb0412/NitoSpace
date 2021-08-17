@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+  <title>Document</title>
+  <link rel="stylesheet" href="../static/css/frontend2.css">
+</head>
+<body>
+  <div class="mainbox">
+    <div class="box1">
+      <div id="guide"><h1 style="color: white;;">Guidelines</h1></div>
+      <ol class="l1" style="color: white;">
+        <li>You must take the exam in the same room that you scanned during the proctoring setup for the current exam.
+          Note: You must complete a webcam scan of the room where you will take the exam every time you take a proctored exam. However, you do not have to take all of your proctored exams in the same room.</li>
+          <br>
+
+        <li>No other person is allowed to enter the room while you are taking the proctored exam.</li>  
+        <br>
+        <li>The lighting in the room must be bright enough to be considered “daylight” quality. Overhead lighting is preferred. If overhead lighting is not available, the source of light must not be behind you.</li>
+        <br>
+
+        <li>You must sit at a clean desk or table.</li><br>
+        <li>The desk or walls around you must not have any writing.</li><br>
+        <li>The room must be as quiet as possible. Sounds such as music or television are not permitted.</li><br>
+        <li>The following items must not be on your desk or used during your proctored exam, unless posted rules for the exam specifically permit these materials:
+          Books
+          Paper
+          Pens
+          Calculators
+          Textbooks
+          Notebooks
+          Phones
+          <ol type="i">
+            <li>Books</li>
+            <li>Paper</li>
+            <li>Pens</li>
+            <li>Calculators</li>
+            <li>Notebooks</li>
+            <li>Phones</li>
+          </ol>
+        </li>
+      </ol>
+
+    </div>
+    <div class="box2">
+      <div id="exam"><h1 style="color: white;">Exam</h1></div>
+      <div>
+      <div class="container mt-sm-5 my-1">
+        <div class="question ml-sm-5 pl-sm-5 pt-2">
+            <div class="py-2 h5"><b>Q. which option best describes your job role?</b></div>
+            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> <label class="options">Small Business Owner or Employee <input type="radio" name="radio"> <span class="checkmark"></span> </label> <label class="options">Nonprofit Owner or Employee <input type="radio" name="radio"> <span class="checkmark"></span> </label> <label class="options">Journalist or Activist <input type="radio" name="radio"> <span class="checkmark"></span> </label> <label class="options">Other <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
+        </div>
+        <div class="btn">
+          <div class="container-fluid fo">
+            <form action="/backend" method="post" enctype="multipart/form-data">
+                <button type="submit" class="btn btn-outline-light btn-md ch">Backend</button>
+            </form>
+        </div>
+            <form action="/submit" method="post" enctype="multipart/form-data">
+              <button type="submit" class="btn btn-outline-light btn-md ch">Submit</button>
+            </form> 
+        </div>
+        </div>
+    </div>
+
+      </div>
+    </div>
+    </div>
+</body>
+</html>
